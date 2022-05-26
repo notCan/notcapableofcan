@@ -47,7 +47,7 @@ export default {
     },
     date: {
       type: Date,
-      default: '01.01.1999',
+      default: 1653569144037,
     },
     tags: {
       type: Array,
