@@ -14,13 +14,19 @@ body {
   @apply bg-primary;
 }
 @layer components {
+  .container-xs {
+    @apply w-full xl:px-80 lg:px-60 md:px-40 sm:px-20 py-4;
+  }
   .container-sm {
-    @apply w-full lg:px-60 md:px-40 px-20 py-4;
+    @apply w-full lg:px-60 md:px-40 sm:px-20 py-4;
   }
   .container-md {
-    @apply w-full lg:px-40 px-20 py-4;
+    @apply w-full lg:px-40 sm:px-20 py-4;
   }
   .container-lg {
-    @apply w-full px-20 py-4;
+    @apply w-full sm:px-20 py-4;
+  }
+  .all-center {
+    @apply flex justify-center items-center;
   }
 }

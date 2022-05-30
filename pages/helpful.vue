@@ -1,5 +1,5 @@
 <template>
-  <div>HELPFUL</div>
+  <div class="container-lg bg-secondary-500">HELPFUL</div>
 </template>
 
 <script>

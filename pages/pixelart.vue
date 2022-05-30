@@ -13,7 +13,11 @@
         class="explanation container-lg flex flex-row justify-center items-center"
       >
         <div class="explanation-image p-4">
-          <img src="/images/heart.gif" alt="" />
+          <img
+            src="/images/heart.gif"
+            alt="notcapableofcan heartgif"
+            loading="lazy"
+          />
         </div>
         <div class="explanation-text p-4">
           <p>
@@ -23,7 +27,7 @@
         </div>
       </div>
     </section>
-    <section id="images">
+    <section id="image_cards">
       <div
         class="container-lg flex flex-row flex-wrap justify-center items-center space-x-4"
       >
@@ -36,13 +40,15 @@
             <button
               v-dialog-open="'modal'"
               class="btn"
-              @click="transferData(item)"
+              @click="openModal(item)"
             >
               <i class="ri-more-line"></i>
             </button>
           </div>
-          <img :src="item.src" :alt="item.alt" />
-          <p>{{ item.name }}</p>
+          <img :src="item.src" :alt="item.alt" class="h-64" />
+          <p class="font-semibold text-white tracking-wide">
+            {{ textUppercase(item.name) }}
+          </p>
         </div>
       </div>
     </section>
@@ -54,40 +60,44 @@ export default {
   name: 'PixelArtPage',
   data() {
     return {
-      dName: String,
-      dSrc: String,
-      dAlt: String,
-      dDate: Date,
-      dTags: Array,
+      transferData: {
+        dName: String,
+        dSrc: String,
+        dAlt: String,
+        dDate: Number,
+        dTags: Array,
+      },
       imageCard: [
         {
-          name: 'denemename',
+          name: 'myself',
           src: '/images/me.png',
           alt: 'me',
-          date: 1653569144037,
+          date: Date.now(),
           tags: ['pixel', 'me', 'portre'],
         },
         {
           name: 'Imagesecond',
           src: '/images/frontend.png',
           alt: 'me',
-          date: 1653569144037,
+          date: Date.now(),
           tags: ['pixel', 'me', 'portre'],
         },
       ],
     }
   },
   methods: {
-    openDetails() {
-      alert('details')
+    openModal(obj) {
+      this.transferData = {
+        dName: obj.name,
+        dSrc: obj.src,
+        dAlt: obj.alt,
+        dDate: obj.date,
+        dTags: obj.tags,
+      }
     },
-    transferData(obj) {
-      const dName = obj.name
-      const dSrc = obj.src
-      const dAlt = obj.alt
-      const dDate = obj.date
-      const dTags = obj.tags
-      return { dName, dSrc, dAlt, dDate, dTags }
+    textUppercase(text) {
+      const newText = text.toUpperCase()
+      return newText
     },
   },
 }

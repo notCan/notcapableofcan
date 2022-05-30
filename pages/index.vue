@@ -1,8 +1,8 @@
 <template>
-  <div class="home-hero pt-16">
-    <div class="container-sm flex justify-center items-center">
+  <div class="home pt-4">
+    <div class="home-hero container-sm flex justify-center items-center">
       <h1
-        class="font-extrabold text-4xl bg-clip-text bg-gradient-to-b from-white via-gMiddle to-black m-2 pb-8"
+        class="font-extrabold text-4xl bg-clip-text bg-gradient-to-r from-gLeft via-gMiddle to-gRight m-2 p-2"
       >
         i do a bit of everything
       </h1>
@@ -37,14 +37,14 @@ export default {
       works: [
         {
           id: 1,
-          src: require('@/static/images/mesm.png'),
+          src: '/images/mesm.png',
           alt: 'me',
           text: 'Pixel Art',
           link: '/pixelart',
         },
         {
           id: 2,
-          src: require('@/static/images/frontend.png'),
+          src: '/images/frontend.png',
           alt: 'frontend',
           text: 'Frontend Development',
           link: '/frontend',

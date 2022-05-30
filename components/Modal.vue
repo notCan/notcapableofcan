@@ -23,13 +23,21 @@
           <h1 class="font-semibold mb-4 text-info-800">
             {{ name }}
           </h1>
-          <div class="flex flex-row justify-start items-center">
+          <!-- <div class="flex flex-row justify-start items-center">
             <p class="pr-2 font-bold">Creation Date :</p>
             <p>{{ date }}</p>
-          </div>
+          </div> -->
           <div class="flex flex-row justify-start items-center">
             <p class="pr-2 font-bold">Tags :</p>
-            <p>{{ tags }}</p>
+            <div class="flex flex-row flex-wrap">
+              <p
+                v-for="tag in tags"
+                :key="tag.ID"
+                class="px-2 text-black font-semibold"
+              >
+                {{ tag }}
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -47,11 +55,11 @@ export default {
     },
     date: {
       type: Date,
-      default: 1653569144037,
+      default: Date.now(),
     },
     tags: {
       type: Array,
-      default: () => ['notCan', 'art'],
+      default: () => ['notCan', 'pixel art'],
     },
     imgSrc: {
       type: String,
