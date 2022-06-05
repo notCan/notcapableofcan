@@ -6,7 +6,7 @@
       </h1>
     </div>
     <div class="container-lg flex justify-center items-center p-16">
-      <img src="/images/gearsmall.gif" />
+      <img src="~/assets/images/gearsmall.gif" />
     </div>
     <div class="container-lg flex justify-center items-center p-16">
       <button type="button">

@@ -1,20 +1,12 @@
 <template>
   <div>
-    <Modal
-      ref="modal"
-      :name="transferData.dName"
-      :date="transferData.dDate"
-      :img-src="transferData.dSrc"
-      :img-alt="transferData.dAlt"
-      :tags="transferData.dTags"
-    />
     <section id="hero">
       <div
         class="explanation container-lg flex flex-row justify-center items-center"
       >
         <div class="explanation-image p-4">
           <img
-            src="/images/heart.gif"
+            src="~/assets/images/heart.gif"
             alt="notcapableofcan heartgif"
             loading="lazy"
           />
@@ -36,16 +28,11 @@
           :key="item.ID"
           class="image-container flex flex-col justify-center items-center p-4 border-2 rounded-xl border-black hover:shadow-2xl"
         >
-          <div class="w-full flex justify-end items-start">
-            <button
-              v-dialog-open="'modal'"
-              class="btn"
-              @click="openModal(item)"
-            >
-              <i class="ri-more-line"></i>
-            </button>
-          </div>
-          <img :src="item.src" :alt="item.alt" class="h-64" />
+          <img
+            :src="require(`~/assets/images/${item.src}`)"
+            :alt="item.alt"
+            class="h-64"
+          />
           <p class="font-semibold text-white tracking-wide">
             {{ textUppercase(item.name) }}
           </p>
@@ -60,24 +47,17 @@ export default {
   name: 'PixelArtPage',
   data() {
     return {
-      transferData: {
-        dName: String,
-        dSrc: String,
-        dAlt: String,
-        dDate: Number,
-        dTags: Array,
-      },
       imageCard: [
         {
           name: 'myself',
-          src: '/images/me.png',
+          src: 'me.png',
           alt: 'me',
           date: Date.now(),
           tags: ['pixel', 'me', 'portre'],
         },
         {
           name: 'Imagesecond',
-          src: '/images/frontend.png',
+          src: 'frontend.png',
           alt: 'me',
           date: Date.now(),
           tags: ['pixel', 'me', 'portre'],
@@ -86,15 +66,6 @@ export default {
     }
   },
   methods: {
-    openModal(obj) {
-      this.transferData = {
-        dName: obj.name,
-        dSrc: obj.src,
-        dAlt: obj.alt,
-        dDate: obj.date,
-        dTags: obj.tags,
-      }
-    },
     textUppercase(text) {
       const newText = text.toUpperCase()
       return newText

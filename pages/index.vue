@@ -13,7 +13,11 @@
           <div
             class="flex items-center justify-center rounded-md flex-col hover:bg-info-50 cursor-pointer"
           >
-            <img class="p-4" :src="item.src" :alt="item.alt" />
+            <img
+              class="p-4"
+              :src="require(`~/assets/images/${item.src}`)"
+              :alt="item.alt"
+            />
             <p class="font-semibold p-2">{{ item.text }}</p>
           </div>
         </nuxt-link>
@@ -37,28 +41,28 @@ export default {
       works: [
         {
           id: 1,
-          src: '/images/mesm.png',
+          src: 'mesm.png',
           alt: 'me',
           text: 'Pixel Art',
           link: '/pixelart',
         },
         {
           id: 2,
-          src: '/images/frontend.png',
+          src: 'frontend.png',
           alt: 'frontend',
           text: 'Frontend Development',
           link: '/frontend',
         },
         {
           id: 3,
-          src: require('@/static/images/backend.png'),
+          src: 'backend.png',
           alt: 'backend',
           text: 'Backend Development',
           link: '/backend',
         },
         {
           id: 4,
-          src: require('@/static/images/mobile.png'),
+          src: 'mobile.png',
           alt: 'mobile',
           text: 'Mobile App Dev',
           link: '/mobile',

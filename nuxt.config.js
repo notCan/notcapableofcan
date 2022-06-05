@@ -20,7 +20,7 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.svg' }],
   },
-  generate: { fallback: '404.vue' },
+  generate: { fallback: 'error.vue' },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['~/assets/tailwind.css', 'remixicon/fonts/remixicon.css'],
 

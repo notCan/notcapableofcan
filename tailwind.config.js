@@ -1,4 +1,5 @@
 const colors = require('./colors')
+
 module.exports = {
   mode: 'jit',
   purge: {
@@ -12,11 +13,8 @@ module.exports = {
   },
   darkMode: false,
   theme: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+    fontFamily: {
+      oregano: ['Oregano', 'cursive'],
     },
     colors: {
       primary: colors.primary,
