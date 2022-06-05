@@ -4,7 +4,7 @@
       <h1
         class="font-extrabold text-4xl bg-clip-text bg-gradient-to-r from-gLeft via-gMiddle to-gRight m-2 p-2"
       >
-        i do a bit of everything
+        {{ headers.title }}
       </h1>
     </div>
     <div class="container-lg flex flex-row items-center justify-center pb-12">
@@ -38,6 +38,9 @@ export default {
   name: 'HomePage',
   data() {
     return {
+      headers: {
+        title: 'i do a bit of everything',
+      },
       works: [
         {
           id: 1,
