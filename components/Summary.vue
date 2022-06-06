@@ -1,10 +1,10 @@
 <template>
   <div
-    class="container-xs mx-auto flex lg:flex-row flex-col lg:space-x-40 lg:py-8"
+    class="container-md mx-auto flex lg:flex-row flex-col lg:space-x-40 lg:py-8"
   >
-    <div class="image-side all-center rounded-full border-2">
+    <div class="image-side all-center rounded-full">
       <img
-        class="rounded-full lg:max-h-80"
+        class="rounded-full max-h-80"
         :src="require(`~/assets/images/${imgSrc}`)"
         :alt="imgAlt"
       />

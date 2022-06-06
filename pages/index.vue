@@ -24,7 +24,7 @@
           class="interest_hero container-sm flex justify-center items-center"
         >
           <h1
-            class="font-extrabold text-4xl bg-clip-text bg-gradient-to-r from-gLeft via-gMiddle to-gRight m-2 p-2"
+            class="font-extrabold lg:text-4xl text-2xl bg-clip-text bg-gradient-to-r from-gLeft via-gMiddle to-gRight m-2 p-2"
           >
             {{ interests.title }}
           </h1>
