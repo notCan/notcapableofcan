@@ -1,5 +1,5 @@
 <template>
-  <nav class="header w-full">
+  <nav class="header fixed top-0 left-0 w-full bg-primary z-50 h-20">
     <ul v-for="(item, index) in header" :key="index">
       <li class="m-2">
         <nuxt-link exact-active-class="text-primary-200" :to="item.link"
@@ -17,25 +17,17 @@ export default {
     return {
       header: [
         {
-          name: 'welcome',
+          name: 'myself',
           link: '/',
         },
         {
-          name: 'myself',
-          link: '/myself',
+          name: 'interests',
+          link: '#interests',
         },
-        // {
-        //   name: 'tryings',
-        //   link: '/tryings',
-        // },
         {
           name: 'helpful',
-          link: '/helpful',
+          link: '#helpful',
         },
-        // {
-        //   name: 'contact',
-        //   link: '/contact',
-        // },
       ],
     }
   },

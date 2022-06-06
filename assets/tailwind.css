@@ -5,27 +5,30 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply text-[14px] sm:text-[16px] text-white;
-}
-* {
-  font-family: 'Titillium Web', sans-serif;
-}
-body {
-  @apply bg-primary;
+@layer base {
+  html {
+    @apply text-[14px] sm:text-[16px] text-white;
+    @layer scroll-smooth;
+  }
+  * {
+    font-family: 'Titillium Web', sans-serif;
+  }
+  body {
+    @apply bg-primary;
+  }
 }
 @layer components {
   .container-xs {
-    @apply w-full xl:px-80 lg:px-60 md:px-40 sm:px-20 py-4;
+    @apply w-full xl:px-80 lg:px-60 md:px-40 sm:px-20 px-10 py-4;
   }
   .container-sm {
-    @apply w-full lg:px-60 md:px-40 sm:px-20 py-4;
+    @apply w-full lg:px-60 md:px-40 sm:px-20 px-10 py-4;
   }
   .container-md {
-    @apply w-full lg:px-40 sm:px-20 py-4;
+    @apply w-full lg:px-40 sm:px-20 px-10 py-4;
   }
   .container-lg {
-    @apply w-full sm:px-20 py-4;
+    @apply w-full sm:px-20 px-10 py-4;
   }
   .all-center {
     @apply flex justify-center items-center;

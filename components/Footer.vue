@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">All rights reserved.</div>
+  <div class="footer py-6">All rights reserved.</div>
 </template>
 
 <script>

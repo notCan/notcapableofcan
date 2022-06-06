@@ -6,36 +6,26 @@
       >
         <div class="explanation-image p-4">
           <img
-            src="~/assets/images/heart.gif"
-            alt="notcapableofcan heartgif"
+            :src="require(`~/assets/images/${hero.src}`)"
+            :alt="hero.alt"
             loading="lazy"
           />
         </div>
         <div class="explanation-text p-4">
-          <p>
-            I love pixel art because i can't draw but i can paint pixel by
-            pixel.
-          </p>
+          <p>{{ hero.title }}</p>
         </div>
       </div>
     </section>
     <section id="image_cards">
       <div
-        class="container-lg flex flex-row flex-wrap justify-center items-center space-x-4"
+        class="container-lg flex lg:flex-row flex-col flex-wrap justify-center items-center lg:space-x-4 space-y-4 lg:space-y-0"
       >
-        <div
-          v-for="item in imageCard"
-          :key="item.ID"
-          class="image-container flex flex-col justify-center items-center p-4 border-2 rounded-xl border-black hover:shadow-2xl"
-        >
-          <img
-            :src="require(`~/assets/images/${item.src}`)"
-            :alt="item.alt"
-            class="h-64"
-          />
-          <p class="font-semibold text-white tracking-wide">
-            {{ textUppercase(item.name) }}
-          </p>
+        <div v-for="item in imageCard" :key="item.id">
+          <image-card
+            :img-src="item.src"
+            :img-alt="item.alt"
+            :name="item.name"
+          ></image-card>
         </div>
       </div>
     </section>
@@ -47,6 +37,12 @@ export default {
   name: 'PixelArtPage',
   data() {
     return {
+      hero: {
+        src: 'heart.gif',
+        alt: 'notcapableofcan heartgif',
+        title:
+          "I love pixel art because i can't draw but i can paint pixel by pixel.",
+      },
       imageCard: [
         {
           name: 'myself',
@@ -64,12 +60,6 @@ export default {
         },
       ],
     }
-  },
-  methods: {
-    textUppercase(text) {
-      const newText = text.toUpperCase()
-      return newText
-    },
   },
 }
 </script>
