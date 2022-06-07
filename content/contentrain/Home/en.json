@@ -106,6 +106,14 @@
           "name": "Backend Development",
           "link": "/backend",
           "createdAt": 1654598396045
+        },
+        {
+          "ID": "5e9544e2-6268-45ce-873b-90b7349d830b",
+          "src": "mobile.png",
+          "alt": "mobile",
+          "name": "Mobile App Dev",
+          "link": "/mobile",
+          "createdAt": 1654598415163
         }
       ],
       "createdAt": 1654598322026
