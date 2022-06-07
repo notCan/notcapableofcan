@@ -82,7 +82,16 @@
     "interests": {
       "ID": "f741e413-8e9c-4e85-a449-983537933284",
       "title": "i do a bit of everything",
-      "cards": [],
+      "cards": [
+        {
+          "ID": "aecadc54-fb74-41c8-9df3-15946e518407",
+          "src": "mesm.png",
+          "alt": "me",
+          "name": "Pixel Art",
+          "link": "/pixelart",
+          "createdAt": 1654598345997
+        }
+      ],
       "createdAt": 1654598322026
     },
     "helpful": {},
