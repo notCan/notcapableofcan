@@ -54,6 +54,13 @@
           "alt": "gmail",
           "link": "mailto:devecann@gmail.com",
           "createdAt": 1654598222671
+        },
+        {
+          "ID": "8de5bbae-0241-4665-aa10-3ae2d9e9788f",
+          "src": "mediumsm.png",
+          "alt": "medium",
+          "link": "https://medium.com/@notcan",
+          "createdAt": 1654598235628
         }
       ],
       "createdAt": 1654598147985
