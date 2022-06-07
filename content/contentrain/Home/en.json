@@ -33,7 +33,15 @@
     "contact": {
       "ID": "1fb9a4f6-ce1a-4cd9-993a-7b0b8ebb09dd",
       "title": "Contact Me",
-      "cards": [],
+      "cards": [
+        {
+          "ID": "657f1d38-71f3-47ef-a67c-cc623c8429a6",
+          "src": "linkedinsm.png",
+          "alt": "linkedin",
+          "link": "https://www.linkedin.com/in/candeve/",
+          "createdAt": 1654598186791
+        }
+      ],
       "createdAt": 1654598147985
     },
     "interests": {},
