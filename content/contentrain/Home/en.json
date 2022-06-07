@@ -19,7 +19,8 @@
         "NodeJS",
         "VueJS",
         "NuxtJS",
-        "ExpressJS"
+        "ExpressJS",
+        "NestJS"
       ],
       "createdAt": 1654597864620
     },
