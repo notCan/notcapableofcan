@@ -20,7 +20,8 @@
         "VueJS",
         "NuxtJS",
         "ExpressJS",
-        "NestJS"
+        "NestJS",
+        "Tailwind CSS"
       ],
       "createdAt": 1654597864620
     },
