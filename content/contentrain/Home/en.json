@@ -47,6 +47,13 @@
           "alt": "github",
           "link": "https://github.com/notCan",
           "createdAt": 1654598207204
+        },
+        {
+          "ID": "957ea73b-57f4-44d9-acc6-362342232f70",
+          "src": "gmailsm.png",
+          "alt": "gmail",
+          "link": "mailto:devecann@gmail.com",
+          "createdAt": 1654598222671
         }
       ],
       "createdAt": 1654598147985
