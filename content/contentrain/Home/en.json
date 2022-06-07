@@ -118,7 +118,12 @@
       ],
       "createdAt": 1654598322026
     },
-    "helpful": {},
+    "helpful": {
+      "ID": "88e11d6d-122f-45f1-9cf4-7df822a90c31",
+      "title": "some useful links",
+      "cards": [],
+      "createdAt": 1654598433211
+    },
     "createdAt": 1654597748601,
     "ID": "d5e73af6-666e-4e76-b72d-b25d93856dc2"
   }
