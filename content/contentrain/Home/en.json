@@ -79,7 +79,12 @@
       ],
       "createdAt": 1654598147985
     },
-    "interests": {},
+    "interests": {
+      "ID": "f741e413-8e9c-4e85-a449-983537933284",
+      "title": "i do a bit of everything",
+      "cards": [],
+      "createdAt": 1654598322026
+    },
     "helpful": {},
     "createdAt": 1654597748601,
     "ID": "d5e73af6-666e-4e76-b72d-b25d93856dc2"
