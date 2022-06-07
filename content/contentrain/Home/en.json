@@ -121,7 +121,15 @@
     "helpful": {
       "ID": "88e11d6d-122f-45f1-9cf4-7df822a90c31",
       "title": "some useful links",
-      "cards": [],
+      "cards": [
+        {
+          "ID": "eba799d0-1040-453d-a124-41dd8f0f43ec",
+          "name": "CSS Battle",
+          "description": "<p>You can improve your css knowledge and compete other css lovers.</p><p><br></p>",
+          "link": "https://cssbattle.dev/",
+          "createdAt": 1654598490250
+        }
+      ],
       "createdAt": 1654598433211
     },
     "createdAt": 1654597748601,
