@@ -90,6 +90,14 @@
           "name": "Pixel Art",
           "link": "/pixelart",
           "createdAt": 1654598345997
+        },
+        {
+          "ID": "3b410bfe-2b05-4953-937b-e282b683312d",
+          "src": "frontend.png",
+          "alt": "frontend",
+          "name": "Frontend Development",
+          "link": "/frontend",
+          "createdAt": 1654598374475
         }
       ],
       "createdAt": 1654598322026
