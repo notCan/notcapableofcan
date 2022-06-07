@@ -30,7 +30,12 @@
       ],
       "createdAt": 1654597864620
     },
-    "contact": {},
+    "contact": {
+      "ID": "1fb9a4f6-ce1a-4cd9-993a-7b0b8ebb09dd",
+      "title": "Contact Me",
+      "cards": [],
+      "createdAt": 1654598147985
+    },
     "interests": {},
     "helpful": {},
     "createdAt": 1654597748601,
