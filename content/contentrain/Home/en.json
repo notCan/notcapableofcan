@@ -18,7 +18,8 @@
         "TypeScript",
         "NodeJS",
         "VueJS",
-        "NuxtJS"
+        "NuxtJS",
+        "ExpressJS"
       ],
       "createdAt": 1654597864620
     },
