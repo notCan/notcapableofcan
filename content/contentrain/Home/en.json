@@ -1,6 +1,13 @@
 [
   {
-    "summary": {},
+    "summary": {
+      "ID": "8120e75e-8d91-4756-ad8a-3884679802fa",
+      "src": "profile.jpg",
+      "alt": "can deve",
+      "title": "Hi! I'm Can",
+      "description": "<p>I'm detail-oriented Computer Engineer from September 2021 on. I experienced my object-oriented programming knowledge by learning Java, C# software languages and developing many projects. I'm currently working for full stack development and pixel art.</p>",
+      "createdAt": 1654597844076
+    },
     "tools": {},
     "contact": {},
     "interests": {},
