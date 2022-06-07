@@ -40,6 +40,13 @@
           "alt": "linkedin",
           "link": "https://www.linkedin.com/in/candeve/",
           "createdAt": 1654598186791
+        },
+        {
+          "ID": "1b3bb26b-2338-4975-96f2-7a3bd091fcba",
+          "src": "githubsm.png",
+          "alt": "github",
+          "link": "https://github.com/notCan",
+          "createdAt": 1654598207204
         }
       ],
       "createdAt": 1654598147985
