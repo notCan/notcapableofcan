@@ -1,0 +1,138 @@
+[
+  {
+    "summary": {
+      "ID": "8120e75e-8d91-4756-ad8a-3884679802fa",
+      "src": "profile.jpg",
+      "alt": "can deve",
+      "title": "Hi! I'm Can",
+      "description": "<p>I'm detail-oriented Computer Engineer from September 2021 on. I experienced my object-oriented programming knowledge by learning Java, C# software languages and developing many projects. I'm currently working for full stack development and pixel art.</p>",
+      "createdAt": 1654597844076
+    },
+    "tools": {
+      "ID": "5318a116-50e8-4d2f-8f74-824dd8ad068e",
+      "title": "My Stack",
+      "list": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "NodeJS",
+        "VueJS",
+        "NuxtJS",
+        "ExpressJS",
+        "NestJS",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Dart",
+        "Flutter",
+        "Java",
+        "Php"
+      ],
+      "createdAt": 1654597864620
+    },
+    "contact": {
+      "ID": "1fb9a4f6-ce1a-4cd9-993a-7b0b8ebb09dd",
+      "title": "Contact Me",
+      "cards": [
+        {
+          "ID": "657f1d38-71f3-47ef-a67c-cc623c8429a6",
+          "src": "linkedinsm.png",
+          "alt": "linkedin",
+          "link": "https://www.linkedin.com/in/candeve/",
+          "createdAt": 1654598186791
+        },
+        {
+          "ID": "1b3bb26b-2338-4975-96f2-7a3bd091fcba",
+          "src": "githubsm.png",
+          "alt": "github",
+          "link": "https://github.com/notCan",
+          "createdAt": 1654598207204
+        },
+        {
+          "ID": "957ea73b-57f4-44d9-acc6-362342232f70",
+          "src": "gmailsm.png",
+          "alt": "gmail",
+          "link": "mailto:devecann@gmail.com",
+          "createdAt": 1654598222671
+        },
+        {
+          "ID": "8de5bbae-0241-4665-aa10-3ae2d9e9788f",
+          "src": "mediumsm.png",
+          "alt": "medium",
+          "link": "https://medium.com/@notcan",
+          "createdAt": 1654598235628
+        },
+        {
+          "ID": "bdd0b235-5be0-4008-bd49-90b54ccf58e7",
+          "src": "notionsm.png",
+          "alt": "notion",
+          "link": "https://notcan.notion.site/CV-Resume-073772d981ca4ae1bce2b09d63bfab93",
+          "createdAt": 1654598262627
+        },
+        {
+          "ID": "7e0f898f-6380-4ac2-a6d5-5f63a611cb99",
+          "src": "discordsm.png",
+          "alt": "discord",
+          "link": "https://discord.gg/ER7Cc4VSWQ",
+          "createdAt": 1654598295002
+        }
+      ],
+      "createdAt": 1654598147985
+    },
+    "interests": {
+      "ID": "f741e413-8e9c-4e85-a449-983537933284",
+      "title": "i do a bit of everything",
+      "cards": [
+        {
+          "ID": "aecadc54-fb74-41c8-9df3-15946e518407",
+          "src": "mesm.png",
+          "alt": "me",
+          "name": "Pixel Art",
+          "link": "/pixelart",
+          "createdAt": 1654598345997
+        },
+        {
+          "ID": "3b410bfe-2b05-4953-937b-e282b683312d",
+          "src": "frontend.png",
+          "alt": "frontend",
+          "name": "Frontend Development",
+          "link": "/frontend",
+          "createdAt": 1654598374475
+        },
+        {
+          "ID": "bdc43895-269c-44e7-8a80-44ea53e183a0",
+          "src": "backend.png",
+          "alt": "backend",
+          "name": "Backend Development",
+          "link": "/backend",
+          "createdAt": 1654598396045
+        },
+        {
+          "ID": "5e9544e2-6268-45ce-873b-90b7349d830b",
+          "src": "mobile.png",
+          "alt": "mobile",
+          "name": "Mobile App Dev",
+          "link": "/mobile",
+          "createdAt": 1654598415163
+        }
+      ],
+      "createdAt": 1654598322026
+    },
+    "helpful": {
+      "ID": "88e11d6d-122f-45f1-9cf4-7df822a90c31",
+      "title": "some useful links",
+      "cards": [
+        {
+          "ID": "eba799d0-1040-453d-a124-41dd8f0f43ec",
+          "name": "CSS Battle",
+          "description": "<p>You can improve your css knowledge and compete other css lovers.</p><p><br></p>",
+          "link": "https://cssbattle.dev/",
+          "createdAt": 1654598490250
+        }
+      ],
+      "createdAt": 1654598433211
+    },
+    "createdAt": 1654597748601,
+    "ID": "d5e73af6-666e-4e76-b72d-b25d93856dc2"
+  }
+]

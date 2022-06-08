@@ -1,6 +1,6 @@
 <template>
   <div class="main py-16 flex flex-col h-screen justify-between">
-    <div>
+    <div class="pb-4">
       <Header />
     </div>
     <div class="mb-auto"><nuxt /></div>

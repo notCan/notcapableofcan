@@ -2,7 +2,7 @@
   <div class="image-col flex p-8">
     <nuxt-link :to="link">
       <div
-        class="flex items-center justify-center rounded-md flex-col hover:bg-info-50 cursor-pointer"
+        class="flex items-center justify-center rounded-md flex-col hover:bg-primary-600 cursor-pointer border-2 border-primary-600"
       >
         <img
           class="p-4"
