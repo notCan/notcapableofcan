@@ -77,7 +77,7 @@
 export default {
   name: 'HomePage',
   async asyncData({ $content }) {
-    const pageData = await $content('/contentrain/Home').fetch()
+    const pageData = await $content('contentrain/Home').fetch()
     return {
       pageData,
     }
