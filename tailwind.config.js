@@ -11,7 +11,6 @@ module.exports = {
     ],
     safelist: ['justify-end', 'justify-start'],
   },
-  darkMode: false,
   theme: {
     fontFamily: {
       oregano: ['Oregano', 'cursive'],
