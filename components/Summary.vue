@@ -1,10 +1,10 @@
 <template>
   <div
-    class="container-md mx-auto flex lg:flex-row flex-col lg:space-x-40 lg:py-8"
+    class="xl:container-sm lg:container-lg mx-auto flex lg:flex-row flex-col lg:space-x-16 lg:py-8"
   >
     <div class="image-side all-center rounded-full">
       <img
-        class="rounded-full max-h-80"
+        class="rounded-full max-h-48"
         :src="require(`~/assets/images/${imgSrc}`)"
         :alt="imgAlt"
       />
@@ -13,7 +13,8 @@
       class="info-side flex flex-col lg:justify-start lg:items-start py-12 lg:w-2/3 w-full"
     >
       <h1 class="font-bold text-4xl pb-8">{{ title }}</h1>
-      <p class="text-lg text-info-100">{{ description }}</p>
+      <p class="text-lg text-info-100" v-html="description"></p>
+      <Contact :cards="cards"></Contact>
     </div>
   </div>
 </template>
@@ -37,6 +38,10 @@ export default {
     description: {
       type: String,
       default: 'Hi!',
+    },
+    cards: {
+      type: Object,
+      default: () => {},
     },
   },
 }
